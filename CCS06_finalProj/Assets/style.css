@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.split-left {
+    background: url('Assets/loginBackground.png') no-repeat center center;
+    background-size: cover;
+}
+.split-right {
+    background-color: #e8e4de;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box {
+    width: 100%;
+    max-width: 350px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.form-control, .btn {
+    border-radius: 20px;
+}
+.form-label {
+    color: black;
+}
+.brand-title {
+    color: #0b254d;
+}
+.form-control::placeholder {
+    color: #333;
+}
+.register-link {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    text-align: center;
+}
